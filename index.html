@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elion Abdyli's Resume</title>
+    <style>
+        @page {
+            size: 8.5in 11in;
+            margin: 0.5in;
+/*            margin: 1.0in;*/
+        }
+        body {
+/*            font-family: 'Verdana';
+            font-family: 'Times New Roman', sans-serif;
+            font-family: 'Arial';
+*/            font-family: 'Calibri', sans-serif;
+        		font-variant-ligatures: none;
+                    
+            margin: 0;
+            padding: 0;
+            line-height: 1.4;
+            color: #333;
+            background: #fff;
+        }
+        .container {
+            width: 100%;
+            max-width: 7.5in; /* Adjust for letter size with margins */
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        header {
+            text-align: center;
+            line-height: 1.0;
+
+            padding: 10px 0;
+        }
+        header h1, header p {
+            margin: 5px 0;
+        }
+        header h1 {
+            font-size: 32px;
+        }
+        header p {
+            font-size: 14px;
+        }
+        section {
+            margin-top: 20px;
+        }
+        h2 {
+            font-size: 20px;
+            border-bottom: 1px solid #666;
+            padding-bottom: 3px;
+        }
+      	tr {
+      			padding: 5px 10px;
+      		}
+      	td {
+      			padding-right: 10px;
+      		}
+        .info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+        .info h3, .info p {
+            margin: 0;
+        }
+        h3 {
+            font-size: 16px;
+        }
+        p, li {
+            font-size: 14px;
+        }
+        ul {
+            padding-left: 20px;
+            margin-top: 5px;
+        }
+        .skills-list, .links-list {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 5px;
+        }
+        .skills-list li, .links-list li {
+            margin-bottom: 5px;
+        }
+        a {
+            color: #000;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Elion Abdyli</h1>
+            <p>Software Engineering Student</p>
+            <p><a href="mailto:elion.abdyli@gmail.com">elion.abdyli@gmail.com</a> | +1 514 452 9655 | 160 Rue de Boischatel, Laval, QC H7G 1H8</p>
+            <p><b><a href="https://www.linkedin.com/in/elion-abdyli">LinkedIn</a> | 
+            	<a href="https://github.com/elion-abdyli">GitHub</a></b></p>
+        </header>
+
+<!--         <section>
+            <h2>Skills</h2>
+            <p><b>Programming Languages:</b> Python, Java, JavaScript, C, C#, Rust, HTML, TypeScript, Ruby, Bash</br>
+								<b>Libraries/Frameworks:</b> React, Node, Django, Flask, ASP.NET, JUnit, Pandas, Numpy, PyTest</br>
+								<b>Tools / Platforms:</b> Azure, Git, GitHub, Docker, Linux, Nginx, AWS</br>
+								<b>Databases:</b> MySQL, PostGreSGL, MongoDB, SQLite, Redis</p>
+                
+        </section> -->
+        <section>
+    <h2>Skills</h2>
+    <table style="border-collapse: collapse;">
+        <tr>
+            <td><b>Programming Languages:  </b></td>
+            <td>Python, Java, JavaScript, C, C#, Rust, HTML, TypeScript, Ruby, Bash</td>
+        </tr>
+        <tr>
+            <td><b>Libraries/Frameworks:</b></td>
+            <td>React, Node, Django, Flask, ASP.NET, JUnit, Pandas, Numpy, PyTest</td>
+        </tr>
+        <tr>
+            <td><b>Tools / Platforms:</b></td>
+            <td>Azure, Git, GitHub, Docker, Linux, Nginx, AWS</td>
+        </tr>
+        <tr>
+            <td><b>Databases:</b></td>
+            <td>MySQL, PostgreSQL, MongoDB, SQLite, Redis</td>
+        </tr>
+    </table>
+    <!-- Skills -->
+</section>
+
+        <section>
+            <h2>Education</h2>
+            <div class="info">
+                <div>
+                    <h3>Bachelor of Engineering - Software Engineering</h3>
+                    <p>Concordia University, Montreal</p>
+                    <!-- <p>GPA: 3.3</p> -->
+                </div>
+                <p class="date">Sept. 2020 - Dec. 2025</p>
+            		
+            </div>
+            
+        </section>
+
+        <section>
+            <h2>Work Experience</h2>
+            <div class="info">
+                <div>
+                    <h3>Software Engineering Intern</h3>
+                    <p>Bombardier Inc., Montreal</p>
+                </div>
+                <p class="date">Aug. - Dec. 2021</p>
+            </div>
+            <ul>
+                <li>Contributed to full-stack development of the department web app using Flask, React, JavaScript.</li>
+                <li>Gathered and cleaned training data to populate database using Python, Pandas, Numpy, SQL.</li>
+                <li>Normalized training data for for fluid dynamics model using Python, Pandas, Numpy, SQL, TensorFlow.</li>
+                <li>Developed VBA application to process large CAD models into point clouds. Replaced the legacy system and reduced runtime from 12 hours down to 20 minutes for files above 10 GB, eliminating overnight delays.</li>
+                <li>Contributed to flight dynamics model for aircraft tail designs with Python, Pandas, Numpy, MatPlotLib.</li>
+                <li>Wrote lightweight command-line tool to quickly preview CAD models with Python and MatPlotLib.</li>
+                <li>Core Competencies: Adaptability, Autonomy, Problem Solving, Communication.
+</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            
+            <div class="info">
+                <h3>House Haven Property Management</h3>
+                <p class="date">2024</p>
+            </div>
+            <ul> 
+            	<li>Developing a property management app with Next.js, React, PostGreSQL and Supabase.</li>
+            </ul>
+            
+            <div class="info">
+                <h3>Montreal Housing Market Analysis</h3>
+                <p class="date">2023</p>
+            </div>
+            <ul> 
+            	<li>Performed valuation of housings in Montreal boroughs and retrieved commute times via Google Maps API</li>
+            </ul>
+            <div class="info">
+                <h3>AmaZoo Online Store</h3>
+                <p class="date">2022</p>
+            </div>
+            <ul> 
+            	<li>Developed web store in C# ASP.NET with Model-View-Controller architecture and deployed on Azure with MySQL Database. Performed Agile Methodology and CI/CD via GitHub Actions and Azure DevOps</li>
+            </ul>
+            
+            <div class="info">
+                <h3>S&P 500 Analysis</h3>
+                <p class="date">2021</p>
+            </div>
+            <ul> 
+            	<li>Analyzed market patterns (or lack thereof) in Historical Data of individual SJP 
+500 Componants with Python</li>
+            </ul>
+            
+<!--             <div class="info">
+                <h3>Physics Engine / Astrophysics Simulator</h3>
+                <p class="date">2019</p>
+            </div>
+            <ul> 
+            	<li>Wrote a Mathematical models that simulates and Animates gravitational motion 
+and collisions various star systems (Python, MatPlotLib)</li>
+            </ul>
+ -->            <!-- Repeat for other projects -->
+        </section>
+
+
+    </div>
+</body>
+</html>
